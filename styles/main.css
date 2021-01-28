@@ -1,5 +1,3 @@
-/* body reset */
-
 * {
   margin: 0;
   padding: 0;
@@ -8,23 +6,34 @@
   color: inherit;
 }
 
-/*fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
-
 .main {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: grey;
-  background-color: aquamarine;
   margin-left: 30px;
   display: flex;
   flex-direction: column;
 }
-.field {
-  border: solid 1px grey;
+.form__box--number {
+background-color:rgb(184, 182, 182);
+border: none;
+height: 25px;
+border-radius: 4px;
+}
+.form__field {
+  border: solid 2px grey;
+  width: 600px;
+  margin: 5px 0px;
+  padding: 2px;
+}
+.form__button {
+  margin: 5px 0px;
+  background-color: lightseagreen;
+  border: none;
+  padding: 3px;
+  color: white;
+  border-radius: 4px;
 }
 
 
 
-
-/* main  structure  */
-/* borders & background-color for further playing purposes */

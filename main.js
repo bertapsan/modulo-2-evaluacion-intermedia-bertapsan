@@ -1,2 +1,7 @@
 'use strict';
-const updateElement = document.querySelector('.js-check');
+const getRandomNumber = 
+
+function getRandomNumber(max) {
+    return Math.ceil(Math.random() * max);
+   }
+console.log(getRandomNumber);
