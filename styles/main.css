@@ -1,0 +1,20 @@
+/* body reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+}
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+
+
+
+
+
+/* main  structure  */
+/* borders & background-color for further playing purposes */
