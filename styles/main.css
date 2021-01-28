@@ -11,7 +11,17 @@
 /*fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 
-
+.main {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: grey;
+  background-color: aquamarine;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.field {
+  border: solid 1px grey;
+}
 
 
 

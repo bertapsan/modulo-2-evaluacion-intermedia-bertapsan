@@ -4,15 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Módulo 2 evaluación intermedia bertapsan</title>
-    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
     <header></header>
-    <nav></nav>
-    <main>
-      <img src= "images/flow.svg" />
+    <main class="main">
+      <h1 class="main__h1">Adivina el número</h1>
+      <form class="form">
+        <label class="form__label" for="number">Introduce aquí tu número</label>
+        <p><input class="form__box form__box--number" type="text" id="number" name="number" 
+          required /></p>
+      
+          <input type="button" value="Prueba" class="button js-check" /></button>
+        <p class="field">Pista </p>
+          <p class="field">Número de intentos</p>
+      </form>
+
+      </form>
     </main>
-    <footer></footer>
     <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>
