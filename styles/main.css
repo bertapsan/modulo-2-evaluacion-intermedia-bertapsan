@@ -18,6 +18,7 @@
 background-color:rgb(184, 182, 182);
 border: none;
 height: 25px;
+width: 150px;
 border-radius: 4px;
 }
 .form__field {
